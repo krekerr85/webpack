@@ -1,0 +1,24 @@
+@import 'roboto.css';
+@import '~normalize-css'; /*  ~ берет из папки node modules  */
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	padding-top: 2px;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+.logo {
+	background-image: url('../assets/logo.jpg');
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	margin: 0 auto;
+}
